@@ -1,14 +1,14 @@
 Customer Churn Prediction
 
-Project Overview
+📌Project Overview
 
 This project predicts customer churn using machine learning techniques. The goal is to identify customers likely to leave and help businesses take preventive actions.
 
-Dataset
+📊Dataset
 
 Telco Customer Churn Dataset from Kaggle.
 
-Techniques Used
+🔧Techniques Used
 
 Data Cleaning
 
@@ -24,12 +24,13 @@ XGBoost
 
 ROC-AUC Evaluation
 
+📈 Model Performance
 | Model         | ROC-AUC |
 | ------------- | ------- |
 | Random Forest | 0.88    |
 | XGBoost       | 0.91    |
 
-Key Business Insights
+🔍Key Business Insights
 
 Month-to-month customers churn more.
 
@@ -41,5 +42,5 @@ Fiber optic users show higher churn.
 
 Lack of tech support increases churn.
 
-How to Run
+🚀How to Run
 pip install -r requirements.txt
